@@ -1,0 +1,139 @@
+:root {
+    --bg-color: #111;
+    --txt-clr: #fff;
+    --font-fam: 'verdana', arial, sans-serif;
+    --default-fsize: 1rem;
+}
+
+body {
+    font-family: var(--font-fam);
+    background: var(--bg-color);
+    color: var(--txt-clr);
+}
+
+a {
+    text-decoration: none;
+    color: var(--txt-clr);
+}
+
+ul {
+    padding: 0;
+}
+
+ul li  {
+    list-style-type: none;
+    margin: 8px;
+}
+
+
+
+/* HEADING */
+.main-nav-wrapper {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.nav-inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.branding > h1 {
+    margin: 25px;
+}
+
+.navigation-area > ul {
+    display: flex;
+}
+
+.navigation-area ul > li {
+    margin-left: 25px;
+}
+
+
+
+/* MAIN CONTENT */
+.main-page-wrapper {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.inner-page-wrapper {
+    padding: 10px 20px;
+    display: flex;
+}
+
+.main-content{
+    order: 2;
+    flex: 3;
+    padding: 15px;
+    margin: 10px;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+
+.right-side {
+    order: 3;
+    flex: 1;
+    padding: 15px;
+    margin: 10px;
+}
+
+.right-side h3 {
+    font-size: .8rem;
+}
+
+.advertisements p {
+    font-size: .8rem;
+}
+
+.advertisements a {
+    font-size: .7rem;
+    font-weight: 700;
+}
+
+.advertisements-content {
+    padding: 10px;
+}
+
+.advertisements-content:after {
+    content: ""; /* This is necessary for the pseudo element to work. */
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 50%; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+    border-bottom: 1px solid #eee; /* This creates the border. Replace black with whatever color you want. */
+}
+
+
+.left-side {
+    order: 1;
+    flex: 1;
+    padding: 15px;
+    margin: 10px;
+}
+
+.left-side h3 {
+    font-size: .8rem;
+}
+
+
+article.community > a {
+    display: block;
+    line-height: 22px;
+    font-size: .9rem;
+}
+
+.terms > ul {
+    display: flex;
+    font-size: .6rem;
+}
+
+
+/* FOOTER */
+footer {
+    padding: 10px 20px;
+    text-align: center;
+    font-size: .8rem;
+}

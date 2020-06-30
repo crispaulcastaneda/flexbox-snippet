@@ -1,0 +1,24 @@
+{
+  "name": "flexbox",
+  "version": "1.0.0",
+  "description": "Flexbox with Mobile Interaction",
+  "main": "none",
+  "scripts": {
+    "test": "Index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crispaulcastaneda/flexbox-snippet.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "flexbox"
+  ],
+  "author": "Cristian Paul Castaneda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crispaulcastaneda/flexbox-snippet/issues"
+  },
+  "homepage": "https://github.com/crispaulcastaneda/flexbox-snippet#readme"
+}
