@@ -74,6 +74,11 @@
         margin: none;
     }
 
+    .left-side .community a {
+      font-size: .7rem;
+      margin: 5px 0 5px 0;
+    }
+
     .right-side {
         position: absolute;
         width: 151px;
@@ -92,6 +97,11 @@
   */
 
   @media (min-width: 320px) and (max-width: 480px) {
+
+    .left-side .community a {
+      font-size: .7rem;
+      margin: 5px 0 5px 0;
+    }
 
     .right-side {
         position: absolute;
